@@ -20,7 +20,7 @@ class Test {
   public id?: number;
 
   @prop()
-  public count?: string;
+  public count?: number;
 }
 
 export default () => getModelForClass(Test);
